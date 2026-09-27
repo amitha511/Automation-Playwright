@@ -4,6 +4,8 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm install
 
+RUN mkdir -p screenshots
+
 COPY . .
 
 CMD ["node", "automation-exercise.js"]

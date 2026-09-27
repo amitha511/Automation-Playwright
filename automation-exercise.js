@@ -55,10 +55,10 @@ const { chromium } = require('playwright');
 
     console.log('Taking screenshot before submit...');
     await page.screenshot({
-      path: 'before-callback-request.png',
+      path: 'screenshots/before-callback-request.png',
       fullPage: true,
     });
-    console.log('Screenshot saved as before-callback-request.png');
+    console.log('Screenshot saved as screenshots/before-callback-request.png');
 
     console.log('Clicking "Request a call back" button...');
     await page.getByRole('button', { name: /request a call back/i }).click();
