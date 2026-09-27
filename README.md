@@ -8,17 +8,10 @@ This project uses Playwright to automate submitting a callback request form on `
 ### Option 1: Docker (Fastest - No Node.js required) 🐳
 
 Run this command in your terminal:
-**Linux / macOS / Git Bash:**
 
 ```sh
 # Pulls and runs the pre-built image directly from Docker Hub, saving screenshot 'before-callback-request.png' to your local directory 
 docker run --rm -v "$PWD/screenshots":/app/screenshots amitha51111/automation-exercise:latest
-```
-
-**PowerShell:**
-```sh
-# Pulls and runs the pre-built image directly from Docker Hub, saving screenshot 'before-callback-request.png' to your local directory 
-docker run --rm -v "${PWD}/screenshots:/app/screenshots" amitha51111/automation-exercise:latest
 ```
 
 **Note:** The before-callback-request.png screenshot will automatically be saved into a screenshots folder inside your current working directory
