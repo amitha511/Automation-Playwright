@@ -60,4 +60,5 @@ The browser is closed when the script finishes. If the automation encounters an 
 ├── Dockerfile              # Docker container configuration
 ├── package.json            # Node.js dependencies & scripts
 └── README.md               # Project documentation
+└── BillingWidgetMockup.md  # QA Assessment 
 ```
